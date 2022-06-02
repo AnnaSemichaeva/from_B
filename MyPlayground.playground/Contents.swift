@@ -10,9 +10,11 @@ var table = Table(costOfFurniture: 25)
 
 //var listOfFurniture = Array<Furniture>()
 
-var listOfFurnirure = [bed, chair, table]
+var listOfFurnirure = [someFurniture, bed, chair, table]
 
 for furniture in listOfFurnirure{
     furniture.nameTheCost()
+    
+    print("_____")
 }
 
